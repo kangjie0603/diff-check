@@ -1,9 +1,7 @@
-package io.github.yangziwen.diff.calculate;
+package io.github.yangziwen.jacoco.diff.calculate;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
-
+import lombok.Builder;
+import lombok.Getter;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.blame.BlameResult;
@@ -12,8 +10,9 @@ import org.eclipse.jgit.lib.ObjectReader;
 import org.eclipse.jgit.revwalk.RevCommit;
 import org.eclipse.jgit.revwalk.RevWalk;
 
-import lombok.Builder;
-import lombok.Getter;
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * The blame calculator

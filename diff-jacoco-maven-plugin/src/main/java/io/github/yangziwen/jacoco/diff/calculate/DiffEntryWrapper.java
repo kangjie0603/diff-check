@@ -1,15 +1,14 @@
-package io.github.yangziwen.diff.calculate;
+package io.github.yangziwen.jacoco.diff.calculate;
 
-import java.io.File;
-import java.util.List;
-
+import lombok.Builder;
+import lombok.Getter;
 import org.eclipse.jgit.diff.DiffEntry;
 import org.eclipse.jgit.diff.DiffEntry.ChangeType;
 import org.eclipse.jgit.diff.Edit;
 import org.eclipse.jgit.diff.Edit.Type;
 
-import lombok.Builder;
-import lombok.Getter;
+import java.io.File;
+import java.util.List;
 
 /**
  * The diff entry wrapper

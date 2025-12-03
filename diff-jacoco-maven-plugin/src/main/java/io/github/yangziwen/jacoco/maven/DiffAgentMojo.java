@@ -16,10 +16,10 @@ import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
 import org.jacoco.core.internal.analysis.filter.IFilter;
 import org.jacoco.maven.AgentMojo;
 
-import io.github.yangziwen.diff.calculate.BlameCalculator;
-import io.github.yangziwen.diff.calculate.DiffCalculator;
-import io.github.yangziwen.diff.calculate.DiffEntryWrapper;
-import io.github.yangziwen.diff.calculate.MergeBaseCalculator;
+import io.github.yangziwen.jacoco.diff.calculate.BlameCalculator;
+import io.github.yangziwen.jacoco.diff.calculate.DiffCalculator;
+import io.github.yangziwen.jacoco.diff.calculate.DiffEntryWrapper;
+import io.github.yangziwen.jacoco.diff.calculate.MergeBaseCalculator;
 import io.github.yangziwen.jacoco.filter.DiffFilter;
 import io.github.yangziwen.jacoco.filter.PersonFilter;
 import io.github.yangziwen.jacoco.filter.PersonFilter.PersonInfo;

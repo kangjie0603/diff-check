@@ -14,7 +14,7 @@ import org.jacoco.core.internal.analysis.filter.IFilterOutput;
 import org.objectweb.asm.tree.InsnList;
 import org.objectweb.asm.tree.MethodNode;
 
-import io.github.yangziwen.diff.calculate.DiffEntryWrapper;
+import io.github.yangziwen.jacoco.diff.calculate.DiffEntryWrapper;
 import io.github.yangziwen.jacoco.util.CollectionUtil;
 import io.github.yangziwen.jacoco.util.FilterUtil;
 import io.github.yangziwen.jacoco.util.LineNumberNodeWrapper;

@@ -1,8 +1,4 @@
-package io.github.yangziwen.diff.calculate;
-
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.util.Collection;
+package io.github.yangziwen.jacoco.diff.calculate;
 
 import org.eclipse.jgit.diff.ContentSource;
 import org.eclipse.jgit.diff.DiffEntry;
@@ -16,6 +12,10 @@ import org.eclipse.jgit.lib.FileMode;
 import org.eclipse.jgit.lib.ObjectId;
 import org.eclipse.jgit.lib.ObjectLoader;
 import org.eclipse.jgit.lib.ObjectReader;
+
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.util.Collection;
 
 /**
  * The diff helper
